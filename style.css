@@ -621,7 +621,7 @@ a[data-lightbox]:hover img {
   opacity: 0.4;
 }
 .col-sm-12 {
-  background-color: #303030;
+  background-color: #30303099;
   padding: 30px;
 }
 
@@ -644,7 +644,16 @@ a[data-lightbox]:hover img {
   color: rgba(0, 0, 0, 0.5);
   background: none;
 }
+.title {
+  color: #7d464d;
+  text-align: start;
+  font-size: 25px;
+}
 
+.mail {
+  text-decoration: underline;
+  color: #7d464d !important;
+}
 h1,
 h3,
 h4,
@@ -831,7 +840,7 @@ h4 {
 }
 
 .bg-dots-bg {
-  background-image: url("img/dots-bg.webp");
+  background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-lines-h2-bg {
@@ -928,8 +937,8 @@ h4 {
   h6,
   p,
   #disqus_thread {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
   .b-parallax {
     background-attachment: scroll;
